@@ -1,8 +1,18 @@
-# test_playvox
-Prueba tecnica Playvox
+# Technical Test Playvox
+This technical test is developed with Javascript / Cypress where API Automation and Web Automation tests are performed in the Space Advisor application.
 
-# Instrucciones
-1. Clonar proyecto
-2. dentro del proyecto ejecutar npm install
-3. Para abrir la interfaz de Cypress ejecutar ./node_modules/.bin/cypress open
-4. Seleccionar el archivo api_automation.spec.js para la prueba de api y web_automation.spec.js para la prueba de web
+
+# Prerequisites
+The requirement for this project is to have Node.js
+
+# Installation
+```npm install```
+
+# Start Cypress
+```npm run open```
+
+# Test
+| Type  | Location |
+| ------------- | ------------- |
+| Web Automation  | cypress/integration/web_automation.spec.js  |
+| API Automation  | cypress/integration/api_automation.spec.js  |
